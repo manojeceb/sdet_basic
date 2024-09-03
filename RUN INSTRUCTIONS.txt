@@ -1,0 +1,53 @@
+--------------------  RUN Instructions  ---------------
+
+Problem 1:
+Pre-Requisite: Java, IntelliJ / Eclipse needed
+
+1. Import the java code into any IDE
+2. Run as Java Program
+
+------------------------------------------------------------------------------------------------
+Problem 2:
+Pre-Requisite: Python needed
+
+1. Download the Emp_Account.py file into the local folder 
+2. Navigate to the folder where the above file presents in terminal/command line
+3. Run using python in terminal/commandline eg python3 Emp_Account.py
+
+------------------------------------------------------------------------------------------------
+Problem 3, 4, 5 and 6:
+Pre-Requisite: Java, Selenium, IntelliJ / Eclipse, TestNG, Maven, WebDriverManager needed
+
+1. Build using mvn install and run using TestNG xml files as per below instructions to get the desired results
+2. Run the TestNG_Problem3.xml for "Problem 3" test results
+3. Run the TestNG_Problem4.xml for "Problem 4" test results
+4. Problem 5 and 6 are also covered here
+
+------------------------------------------------------------------------------------------------
+Problem 7: Added all the codes in the git hub branch "comprehensive_basic_5"
+
+------------------------------------------------------------------------------------------------
+Problem 8:
+Pre-Requisite: Java, RestAssured, IntelliJ / Eclipse, TestNG, Maven, WebDriverManager, Postman needed
+
+1. Build using mvn install
+2. Run the TestNG_Runner.xml file to get the results
+
+Postman:
+1. Import the collection
+2. Click "Send" button in every requests to see the results
+
+------------------------------------------------------------------------------------------------
+Problem 9:
+Pre-Requisite: Java, Jmeter
+
+1. Open the .jmx file 
+2. Click Playbutton to see the results
+
+------------------------------------------------------------------------------------------------
+Problem 10:
+Pre-Requisite: Python, pyrest framework, webDriver manager dependency needed to get installed by pip commands
+
+1. Download the test_autify.py file into the local folder 
+2. Navigate to the folder where the above file presents in terminal/command line
+3. Run the command "pytest -v test_autify.py" to see the results

@@ -1,0 +1,106 @@
+{
+	"info": {
+		"_postman_id": "3282e3ce-465b-455e-beb5-09ce9a2ca631",
+		"name": "SDET Basic_Rest API Tests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27877026"
+	},
+	"item": [
+		{
+			"name": "Valid_Country_Spanish",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restcountries.com/v3.1/lang/spanish",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"com"
+					],
+					"path": [
+						"v3.1",
+						"lang",
+						"spanish"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Valid_Country_PathParam",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restcountries.com/v3.1/lang/:country",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"com"
+					],
+					"path": [
+						"v3.1",
+						"lang",
+						":country"
+					],
+					"variable": [
+						{
+							"key": "country",
+							"value": "Spanish"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Invalid_Country_PathParam",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restcountries.com/v3.1/lang/:country",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"com"
+					],
+					"path": [
+						"v3.1",
+						"lang",
+						":country"
+					],
+					"variable": [
+						{
+							"key": "country",
+							"value": "Test"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Invalid_Country_Test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restcountries.com/v3.1/lang/Test",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"com"
+					],
+					"path": [
+						"v3.1",
+						"lang",
+						"Test"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
